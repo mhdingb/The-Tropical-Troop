@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>The Tropical Troop - Episodes</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/x-icon" href="Icon.png">
+
+	<script>
+
+		function openSlideMenu() {
+			document.getElementById("menu").style.width = "384px";
+
+			document.getElementById("menu").style.borderRight = "2px solid #bb9457"
+		}
+
+		function closeSlideMenu() {
+			document.getElementById("menu").style.width = "0px";
+			document.getElementById("menu").style.borderRight = "0"
+		}
+	</script>
+
+</head>
+
+<body>
+	<script src="script.js"></script>
+
+	<div id="content" class="page">
+		<span class="slide">
+			<a href="#" class="page-top" onclick="openSlideMenu()"> ☰ </a>
+			<a class="title">The Tropical Troop</a>
+
+			<img id="image" class="characters-image" draggable="false" src="Reference.png" loading="lazy">
+			<div class="divider"></div>
+
+			<p><img id="image"
+					src="https://img.freepik.com/free-vector/forest-scene-with-various-forest-trees_1308-57640.jpg?w=826&t=st=1673554659~exp=1673555259~hmac=f2e3a52f8cb15dd1b34b881e90834fe43608a15a4490d95022e55a3e2911fa4c"
+					loading="lazy">
+			</p>
+			<p style="text-align: center;">
+				<a href="https://www.freepik.com/free-vector/forest-scene-with-various-forest-trees_15662390.htm#query=forest%20cartoon&position=4&from_view=search&track=sph"
+					style="text-align: center;">Background
+					by brgfx on freepik.com</a>
+			<div class="divider"></div>
+			<img src="Copyright Checklist.jpg" style="width: 25%; margin-left: 25%; display: inline; clear: both;"
+				loading="lazy">
+			<img src="Website Design Plan of Work.png" style="width: 25%; display: inline; clear: both;" loading="lazy">
+			</p>
+			<div style="height: 32px;"></div>
+			<p style="font-size: 20%;"> </p>
+		</span>
+
+		<div id="menu" class="nav">
+			<a href="#" class="close" onclick="closeSlideMenu()"> ☰ </a>
+			<a class="slide-out">The Tropical Troop</a>
+			<a class="top"></a>
+			<a href="/index.html" class="item">🏠 Home</a>
+			<a href="/characters.html" class="item">👫 Characters</a>
+			<!--<a href="/games.html" class="item">🕹️ Learning Games</a>-->
+			<a href="/episodes.html" class="item bottom">📺 Episodes</a>
+			<a class="tsa">Made for</a>
+			<a class="tsa">TSA Website Design 2022-23</a>
+		</div>
+
+	</div>
+
+</body>
+
+</html>

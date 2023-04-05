@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Tropical Troop Show - Home</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="Icon.png">
+
+	<script>
+
+		function openSlideMenu() {
+			document.getElementById("menu").style.width = "384px";
+
+			document.getElementById("menu").style.borderRight = "2px solid #bb9457"
+		}
+
+		function closeSlideMenu() {
+			document.getElementById("menu").style.width = "0px";
+			document.getElementById("menu").style.borderRight = "0";
+		}
+	</script>
+
+</head>
+
+<body>
+	<script src="script.js"></script>
+
+	<div id="content" class="page">
+		<span class="slide">
+			<a href="#" class="page-top" onclick="openSlideMenu()"> ☰ </a>
+			<a class="title">The Tropical Troop</a>
+			<img id="image" class="characters-image" draggable="false" src="Home.png">
+			<div class="divider"></div>
+			<img id="image" src="Background.png">
+			<p style="text-align: center;">
+				<a style="text-align: center; font-size: 12px;" href="/reference.html">Background of Image by bgrfx (more on reference)</a>
+			</p>
+			<p class="paragraph">Liam, Jane, Oliver, and Emma are exploring a dense tropical rainforest.
+				They are trying to
+				find mammals, birds, reptiles, bugs, plants, fungi, and more! They face obstacles, but they find and learn about
+				new animals
+				every single episode!</p>
+			
+			<div style="height: 64px;"></div>
+			<a href="/characters.html"><button class="link">Meet the Characters!</button></a>
+			<div style="height: 32px;"></div>
+			<p style="font-size: 20%;"> </p>
+		</span>
+
+		<div id="menu" class="nav">
+			<a href="#" class="close" onclick="closeSlideMenu()"> ☰ </a>
+			<a class="slide-out">The Tropical Troop</a>
+			<a class="top"></a>
+			<a href="/characters.html" class="item">👫 Characters</a>
+			<a href="/episodes.html" class="item">📺 Episodes</a>
+			<!--<a href="/games.html" class="item">🕹️ Learning Games</a>-->
+			<a href="/reference.html" class="item bottom">📝 Reference</a>
+			<a class="tsa">Made for</a>
+			<a class="tsa">TSA Website Design 2022-23</a>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
